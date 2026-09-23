@@ -2,7 +2,7 @@
 
 ## Overview
 
-This sample demonstrates how to integrate the Syncfusion React Document Editor component into a SharePoint Framework (SPFx) React web part.
+This sample demonstrates how to integrate the Syncfusion React DOCX Editor component into a SharePoint Framework (SPFx) React web part.
 
 ## Prerequisites
 
@@ -81,9 +81,9 @@ update `serve.json` as follows:
 
 This sample demonstrates:
 
-- Integration of Syncfusion React Document Editor in a SharePoint Framework React web part.
+- Integration of Syncfusion React DOCX Editor in a SharePoint Framework React web part.
 - Loading Syncfusion themes in SharePoint using `SPComponentLoader`.
-- Running the Document Editor inside SharePoint Workbench.
+- Running the DOCX Editor inside SharePoint Workbench.
 - Rich document editing experience with the built-in toolbar.
 
 ## Theme Configuration
@@ -92,13 +92,13 @@ This sample uses `SPComponentLoader` to load the Syncfusion Tailwind theme in Sh
 
 ## Output
 
-The following screenshot shows the Syncfusion React Document Editor running inside a SharePoint Framework (SPFx) web part.
+The following screenshot shows the Syncfusion React DOCX Editor running inside a SharePoint Framework (SPFx) web part.
 
-![Document Editor running in SPFx React web](./images/documenteditor-output.png)
+![DOCX Editor running in SPFx React web](./images/documenteditor-output.png)
 
 ## Documentation
 
-For detailed integration steps, refer to the [Syncfusion Document Editor documentation](https://help.syncfusion.com/document-processing/word/word-processor/react/environment-integration/sharepoint?utm_source=github&utm_medium=listing&utm_campaign=github-react-docx-editor-examples).
+For detailed integration steps, refer to the [Syncfusion DOCX Editor documentation](https://help.syncfusion.com/document-processing/word/word-processor/react/environment-integration/sharepoint?utm_source=github&utm_medium=listing&utm_campaign=github-react-docx-editor-examples).
 
 ## License
 
