@@ -45,18 +45,28 @@ npm run start
 
 ## Configure SharePoint Workbench
 
-Update the `config/serve.json` file with your SharePoint site URL:
+Update the `config/serve.json` file with your SharePoint site URL.
+
+Default configuration:
 
 ```json
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
   "port": 4321,
   "https": true,
-  "initialPage": "https://<tenant>.sharepoint.com/sites/<site>/_layouts/workbench.aspx"
+  "initialPage": "https://{tenantDomain}/_layouts/workbench.aspx"
 }
 ```
 
-Example:
+Replace `{tenantDomain}` with your SharePoint tenant name.
+
+For example, if your SharePoint site URL is:
+
+```text
+https://contoso.sharepoint.com/sites/dev
+```
+
+update `serve.json` as follows:
 
 ```json
 {
